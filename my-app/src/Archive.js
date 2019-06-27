@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-class Archieve extends Component {
+class Archive extends Component {
   render() {
     return (
     
 		<div class="content">
-                   <h2>Historical  Archieve</h2>
+                   <h2>Historical  Archive</h2>
 	 <a href="http://www.int.washington.edu/users/mjs5/NucRum/NTrumors_0102.html"> 2002</a>  
 	 <a href="http://www.int.washington.edu/users/mjs5/NucRum/NTrumors_0203.html"> 2003</a>  
 	 <a href="http://www.int.washington.edu/users/mjs5/NucRum/NTrumors_0304.html"> 2004</a>  
@@ -29,4 +29,4 @@ class Archieve extends Component {
   }
 }
 
-export default Archieve;
+export default Archive;

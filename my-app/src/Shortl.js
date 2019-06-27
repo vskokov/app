@@ -15,11 +15,9 @@ class Item extends Component {
         <div className="pure-g">
           <div className="pure-u-1-2">
             <h3 className="content-subhead-2"> Short List: </h3>
-			{this.props.shortlist}
           </div>
           <div className="pure-u-1-2">
             <h3 className="content-subhead-2"> Offer List: </h3>
-			{this.props.offerlist}
           </div>
         </div>
       </div>
