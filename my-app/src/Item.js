@@ -6,7 +6,7 @@ class Item extends Component {
     return (
       <div className="content">
         <h2 className="content-subhead">
-          <a href={this.props.referefce} alt={this.props.alt}> {this.props.uni} </a>
+          <a href={this.props.reference} alt={this.props.alt}> {this.props.uni} </a>
         </h2>
         <p>
         {this.props.description}
