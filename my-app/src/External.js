@@ -12,7 +12,7 @@ class External extends Component {
 					<a href="http://jobsrumormilljp.web.fc2.com/index.html">Particle Theory (Japan/E. Asia)</a> <br /> 
 					<a href="http://particle.physics.ucdavis.edu/rumor/doku.php">Particle Theory (N. America)</a> <br />
 					<a href="http://pyweb.swan.ac.uk/~pybl/rumours/">Particle Theory (UK/Ireland)</a> <br />
-					<a href="https://sites.google.com/site/nuclearpostdocrumor/">Nuclear Theory Postdocs</a> <br />
+					<a href="http://antiann.org/yiyin/nucl_th_postdoc.html">Nuclear Theory Postdocs</a> <br />
         </div>
 
 	);

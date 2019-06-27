@@ -10,6 +10,7 @@ class Item extends Component {
         </h2>
         <p>
         {this.props.description}
+		<br />
         Deadline: {this.props.deadline}
         </p>
         <div className="pure-g">

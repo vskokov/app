@@ -16,38 +16,124 @@ function App() {
     , "Florida International University"
     , "Tenure-track - Theoretical Nuclear Physics"
     , "November 1, 2018"
- 	, <> </>
-	, <> </>
+ 	, <> 
+	  Elena Petreska <br /> 
+	  Alessandro Pilloni <br />  
+      ... <br /> 
+	  </>
+	, <> Elena Petreska (declined)  <br />  </>
  ], 
    [
-      "https://facultycareers.fiu.edu/?posting=515879"
-    , "FIU"
-    , "Florida International University"
-    , "Tenure-track - Theoretical Nuclear Physics"
-    , "November 1, 2018"
- 	, <> </>
-	, <> </>
+      "http://www.physastro.iastate.edu/employment"
+    , "ISU"
+    , "Iowa State University"
+    , <> Tenure-track - Theoretical Nuclear Physics <br /> Cluster hire  </>
+    , "December 3, 2018"
+ 	, <> 
+	   Henry Lamm <br /> 
+	   Andrey Sadofyev <br />  
+       Srimoyee Sen <br /> 
+       Matt Sievert <br /> 
+       Yong Zhao <br /> 
+       ... <br /> 
+	   </>
+	, <> Srimoyee Sen (accepted) <br /> 
+ </>
  ],  
   [
-      "https://facultycareers.fiu.edu/?posting=515879"
-    , "FIU"
-    , "Florida International University"
-    , "Tenure-track - Theoretical Nuclear Physics"
-    , "November 1, 2018"
-	, <> </>
+      "https://careers-llnl.ttcportals.com/jobs/3606386-nuclear-theory-staff-physicist"
+    , "LLNL"
+    , "Lawrence Livermore National Laboratory"
+    , "Nuclear Theory - Staff Physicist"
+    , "Deadline: Mid-April 2019"
+	, <> 
+	  Caroline Robin <br /> 
+	  Ragnar Stroberg  <br /> 
+	  ...  <br /> 
+	  </>
 	, <> </>
   ], 
 
   [
-      "https://facultycareers.fiu.edu/?posting=515879"
-    , "FIU"
-    , "Florida International University"
-    , "Tenure-track - Theoretical Nuclear Physics"
-    , "November 1, 2018"
-	, <> A. Test <br /> test2 <br /> test3 <br /> test4 <br /> </>
-	, <> test1 <br />  </>
+      "https://jobs.ncsu.edu/postings/107636"
+    , "NCSU"
+    , "North Carolina State University"
+    , <> 
+	  Tenure-track - Theoretical Nuclear Physics <br />
+	  FRIB Theory Alliance bridge position 
+	  </>
+    , "December 1, 2018"
+	, <>
+	  Sebastian Koenig  <br />
+	  Caroline Robini <br />
+	  Srimoyee Sen <br />
+	  Ragnar Stroberg <br />
+	  Ingo Tews
+	  </>
+	, <>
+	  Sebastian Koenig (accepted) <br />
+	  Ingo Tews
+	  </>
+  ], 
+  [
+      "https://academicjobsonline.org/ajo/jobs/12722"
+    , "UW"
+    , "University of Washington"
+    , <> 
+	  "INT Fellow" - Theoretical Nuclear Physics  <br />
+	  Not tenure eligible  
+	  </>
+    , "December 8, 2018"
+	, <>
+	  Joel Lynn   <br />
+	  Srimoyee Sen <br />
+	  ...
+	  </>
+	, <>
+	  Joel Lynn   <br />
+	  Srimoyee Sen <br />
+	  </>
+  ], 
+  [
+      "https://inspirehep.net/record/1692033"
+    , "WM"
+    , "William & Mary"
+    , <> 
+	  Tenure-track - Theoretical Nuclear Physics  <br />
+	  JLAB bridge position 
+	  </>
+    , "December 1, 2018"
+	, <>
+	  Chia Cheng (Jason) Chang <br /> 
+	  Igor Danilkin <br /> 
+      Jacobo Ruiz de Elvira <br /> 
+      Jeremy Green <br /> 
+      Christopher Monahan <br /> 
+      Alessandro Pilloni  
+	  </>
+	, <>
+      Christopher Monahan  (accepted) 
+	  </>
+  ], 
+  [
+      "Yale University"
+    , "Yale"
+    , "Yale University"
+    , <> 
+	  Tenure-track - Theoretical Physics
+	  </>
+    , "November 17, 2018"
+	, <>
+	  Mauricio Martinez Guerrero <br /> 
+      Ingo Tews  <br /> 
+	  ... 
+	  </>
+	, <>
+	  </>
   ] 
   ];
+
+
 
 
 
