@@ -142,9 +142,15 @@ function App() {
 		<>
 
 		<div id="layout">
-			<a href="#menu" id="menuLink" className="menu-link">
-			<span></span>
-			</a>
+
+    			<a href="#menu" id="menuLink" className="menu-link">
+       				<span>
+						::before
+						::after
+					</span>
+   			 	</a>
+
+	
 
 			<div id="main">
 				<div id="Home"> </div>
@@ -156,6 +162,8 @@ function App() {
 				</div>
 
 				<Menu />
+
+		<script src="ui.js"></script>
 
 				<div id="App">
 					{itemlist.map ((item, i) =>
@@ -179,6 +187,7 @@ function App() {
 				<External />
 			</div>
 		</div>
+
 
 		</>
 	);
