@@ -8,6 +8,9 @@ import Archive from './Archive';
 import External from './External';
 import Item from './Item';
 
+
+
+
 function App() {
 	var itemlist =[ 	
 		[
@@ -116,7 +119,7 @@ function App() {
 			</>
 		], 
 		[
-			"Yale University"
+			"http://apply.interfolio.com/55554"
 			, "Yale"
 			, "Yale University"
 			, <> 
@@ -135,20 +138,14 @@ function App() {
 
 
 
-
+	//Toggle(document);
 
 	return (
-
 		<>
 
 		<div id="layout">
 
-    			<a href="#menu" id="menuLink" className="menu-link">
-       				<span>
-						::before
-						::after
-					</span>
-   			 	</a>
+
 
 	
 
@@ -156,15 +153,14 @@ function App() {
 				<div id="Home"> </div>
 				<div className="header">
 				<h1>Theoretical Nuclear Physics Jobs 2018</h1>
-				<h2> Last update: North Carolina State University
+				<h2> Last update: Iowa State University 
 				<br />
-				Date: Oct 17, 2018 </h2>
+				Date: June 21, 2019 </h2>
 				</div>
 
 				<Menu />
 
-		<script src="ui.js"></script>
-
+				
 				<div id="App">
 					{itemlist.map ((item, i) =>
 					<Item
@@ -180,10 +176,29 @@ function App() {
 					)
 					}
 				</div>
+		
+				<div className="wrapper">
+					<div className="divider div-transparent div-arrow-down"></div>
+				</div>
 
 				<Policies />
+
+				<div className="wrapper">
+					<div className="divider div-transparent div-arrow-down"></div>
+				</div>
+
 				<Contact />
+
+				<div className="wrapper">
+					<div className="divider div-transparent div-arrow-down"></div>
+				</div>
+
 				<Archive />
+
+				<div className="wrapper">
+					<div className="divider div-transparent div-arrow-down"></div>
+				</div>
+
 				<External />
 			</div>
 		</div>
