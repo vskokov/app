@@ -1,5 +1,13 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  Redirect,
+  withRouter, 
+  Switch
+} from "react-router-dom";
 
 import './App.css';
 import './bg.css';
@@ -15,8 +23,10 @@ export default App;
 function App() {
 	return (
 		<Router>
-			<Route path="/:id" component={Display} />
-			<Route path="/" component={Display} />
+			<Switch>
+				<Route path="/:id" component={Display} />
+				<Redirect exact from="/" to="/2020" />
+			</Switch>
     	</Router>
 	);
 
