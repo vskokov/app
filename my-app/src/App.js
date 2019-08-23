@@ -1,4 +1,6 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 import './App.css';
 import './bg.css';
 import Menu from './Menu';
@@ -8,11 +10,45 @@ import Archive from './Archive';
 import External from './External';
 import Item from './Item';
 
-
-
+export default App;
 
 function App() {
+	return (
+		<Router>
+			<Route path="/:id" component={Display} />
+			<Route path="/" component={Display} />
+    	</Router>
+	);
+
+}
+
+function flist(year_str){
 	var itemlist =[ 	
+		[
+			"https://phys.washington.edu/assistant-professor-theoretical-physics"
+			, "UW"
+			, "University of Washington"
+			, "Tenure-Track Assistant Professor in Theoretical Physics"
+			, "October 28, 2019"
+			, <> ... 
+			</>
+			, <> ...</>
+		], 
+		[
+			"https://phys.washington.edu/assistant-associate-or-full-professor-theoretical-physics"
+			, "UW"
+			, "University of Washington"
+			, "Open-Rank Professor in Theoretical Physics"
+			, "October 28, 2019"
+			, <> ... 
+			</>
+			, <> ... </>
+		]
+		];
+
+	if(year_str==="2019")
+	{
+		itemlist =[ 	
 		[
 			"https://facultycareers.fiu.edu/?posting=515879"
 			, "FIU"
@@ -135,27 +171,31 @@ function App() {
 			</>
 		] 
 	];
+	}
+	return itemlist; 
+}
 
 
+function Display({ match }) {
+  	var year_str="2020";
+	if(match.params.id==="2019")
+	{
+		year_str="2019";
+	}
+	var itemlist=flist(year_str); 
 
-	//Toggle(document);
+	console.log(itemlist); 
 
 	return (
-		<>
-
 		<div id="layout">
-
-
-
-	
 
 			<div id="main">
 				<div id="Home"> </div>
 				<div className="header">
-				<h1>Theoretical Nuclear Physics Jobs 2018</h1>
-				<h2> Last update: Iowa State University 
+				<h1>Theoretical Nuclear Physics Jobs {year_str}</h1>
+				<h2> Last update: University of Washington
 				<br />
-				Date: June 21, 2019 </h2>
+				Date: August 23, 2020 </h2>
 				</div>
 
 				<Menu />
@@ -202,11 +242,5 @@ function App() {
 				<External />
 			</div>
 		</div>
-
-
-		</>
-	);
-
+  );
 }
-
-export default App;
