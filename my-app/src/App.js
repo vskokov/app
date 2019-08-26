@@ -28,8 +28,10 @@ function App() {
 		<Router>
         <ScrollToTop>
 		<Switch>
-				<Route path="/ntg/jobs/" exact component={Display} />
+				<Route exact path="/ntg/jobs/" component={Display} />
 				<Route path="/ntg/jobs/:id" component={Display} />
+				<Route exact path="/" component={Display} />
+				<Route path="/:id" component={Display} />
 		 </Switch>
         </ScrollToTop>
     	</Router>
