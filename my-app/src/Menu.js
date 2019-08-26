@@ -13,7 +13,8 @@ class Menu extends Component {
 						<li className="pure-menu-item"><a href="#Policies" className="pure-menu-link">Policies</a></li>
 						<li className="pure-menu-item"><a href="#Contact" className="pure-menu-link">Contact</a></li>
 						<li className="pure-menu-item"><a href="#Archive" className="pure-menu-link">Archive</a></li>
-						<li className="pure-menu-item"><a href="#External" className="pure-menu-link">Other job pages</a></li>
+						<li className="pure-menu-item"><a href="#External" className="pure-menu-link">Other job pages</a></li>						  
+<a href="https://twitter.com/nuclthjobs?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false">Follow @nuclthjobs</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 					</ul>
 				</div>
 			</div>

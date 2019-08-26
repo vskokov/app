@@ -5,9 +5,10 @@ import {
   Route,
   Link,
   Redirect,
-  withRouter, 
   Switch
 } from "react-router-dom";
+
+import { HashRouter } from 'react-router-dom'
 
 import './App.css';
 import './bg.css';
@@ -17,16 +18,20 @@ import Contact from './Contact';
 import Archive from './Archive';
 import External from './External';
 import Item from './Item';
+import ScrollToTop from './Scr';
 
 export default App;
+
 
 function App() {
 	return (
 		<Router>
-			<Switch>
-				<Route path="/:id" component={Display} />
-				<Redirect exact from="/" to="/2020" />
-			</Switch>
+        <ScrollToTop>
+		<Switch>
+				<Route path="/ntg/jobs/" exact component={Display} />
+				<Route path="/ntg/jobs/:id" component={Display} />
+		 </Switch>
+        </ScrollToTop>
     	</Router>
 	);
 
