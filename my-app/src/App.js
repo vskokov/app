@@ -41,6 +41,16 @@ function App() {
 
 function flist(year_str){
 	var itemlist =[ 	
+			[
+			"https://academicjobsonline.org/ajo/jobs/14364"
+			, "Temple"
+			, "Temple University"
+			, "Tenure-Track or Tenured Professor in Physics"
+			, "December 1, 2019"
+			, <> ... 
+			</>
+			, <> ...</>
+		], 
 		[
 			"https://phys.washington.edu/assistant-professor-theoretical-physics"
 			, "UW"
@@ -210,9 +220,9 @@ function Display({ match }) {
 				<div id="Home"> </div>
 				<div className="header">
 				<h1>Theoretical Nuclear Physics Jobs {year_str}</h1>
-				<h2> Last update: University of Washington
+				<h2> Last update:  Temple University
 				<br />
-				Date: August 23, 2020 </h2>
+				Date: September 9, 2019 </h2>
 				</div>
 
 				<Menu />
