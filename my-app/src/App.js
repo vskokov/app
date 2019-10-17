@@ -42,6 +42,16 @@ function App() {
 function flist(year_str){
 	var itemlist =[ 	
 			[
+			"https://academicjobsonline.org/ajo/jobs/14309"
+			, "MIT"
+			, "Massachusetts Institute of Technology"
+			, "Tenure-Track or Tenured Professor in Physics"
+			, "November 1, 2019"
+			, <> ... 
+			</>
+			, <> ...</>
+		], 
+		[
 			"https://academicjobsonline.org/ajo/jobs/14364"
 			, "Temple"
 			, "Temple University"
@@ -70,6 +80,26 @@ function flist(year_str){
 			, <> ... 
 			</>
 			, <> ... </>
+		],
+		[
+			"https://www.wsujobs.com/postings/46905"
+			, "WSU"
+			, "Washington State university"
+			, "Tenure-Track Assistant Professor in Theoretical Physics (Astrophysics)"
+			, "October 16, 2019"
+			, <> ... 
+			</>
+			, <> ...</>
+		],
+		[
+			"https://www.wsujobs.com/postings/46929"
+			, "WSU"
+			, "Washington State university"
+			, "Tenure-Track Assistant Professor in Theoretical Physics"
+			, "November 15, 2019"
+			, <> ... 
+			</>
+			, <> ...</>
 		]
 		];
 
@@ -220,9 +250,9 @@ function Display({ match }) {
 				<div id="Home"> </div>
 				<div className="header">
 				<h1>Theoretical Nuclear Physics Jobs {year_str}</h1>
-				<h2> Last update:  Temple University
+				<h2> Last update:  WSU
 				<br />
-				Date: September 9, 2019 </h2>
+				Date: October 16, 2019 </h2>
 				</div>
 
 				<Menu />
