@@ -42,6 +42,26 @@ function App() {
 function flist(year_str){
 	var itemlist =[ 	
 			[
+			"https://labs.inspirehep.net/jobs/1773965"
+			, "ANL"
+			, "Argonne National Laboratory"
+			, "Tenure-Track Assistant Proffesor in Physics"
+			, "March 6, 2020"
+			, <> ... 
+			</>
+			, <> ...</>
+		],
+		[
+			"http://apply.interfolio.com/72230"
+			, "INT"
+			, "Institute for Nuclear Theory, UW"
+			, "INT Fellow, Research Assistant Professor (limitted term up to 5 years)"
+			, "January 19, 2020"
+			, <> ... 
+			</>
+			, <> ...</>
+		], 
+		[
 			"https://academicjobsonline.org/ajo/jobs/14309"
 			, "MIT"
 			, "Massachusetts Institute of Technology"
@@ -250,9 +270,9 @@ function Display({ match }) {
 				<div id="Home"> </div>
 				<div className="header">
 				<h1>Theoretical Nuclear Physics Jobs {year_str}</h1>
-				<h2> Last update:  WSU
+				<h2> Last update: ANL and INT 
 				<br />
-				Date: October 16, 2019 </h2>
+				Date: January 9, 2020 </h2>
 				</div>
 
 				<Menu />
