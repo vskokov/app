@@ -52,6 +52,19 @@ function flist(year_str){
 			, <> ...</>
 		],
 		[
+			"https://www.jlab.org/sites/default/files/theory/files/nucleartheoryposition_gsu_final.pdf"
+			, "GSU"
+			, "Georgia State University"
+			, "Tenure-Track Assistant Proffesor in Nuclear Theory"
+			, "December 1, 2019"
+			, <> 
+			Yang-Ting Chien
+			<br />
+			...
+			</>
+			, <> ...</>
+		],
+		[
 			"http://apply.interfolio.com/72230"
 			, "INT"
 			, "Institute for Nuclear Theory, UW"
@@ -82,6 +95,16 @@ function flist(year_str){
 			, <> ...</>
 		], 
 		[
+			"https://aprecruit.ucr.edu/JPF01224"
+			, "UCR"
+			, "University of California, Riverside"
+			, "Tenure-Track Assistant/Mid-level Professor  in Theoretical Physics"
+			, "January 30, 2020"
+			, <> ... 
+			</>
+			, <> ...</>
+		], 
+		[
 			"https://phys.washington.edu/assistant-professor-theoretical-physics"
 			, "UW"
 			, "University of Washington"
@@ -104,7 +127,7 @@ function flist(year_str){
 		[
 			"https://www.wsujobs.com/postings/46905"
 			, "WSU"
-			, "Washington State university"
+			, "Washington State University"
 			, "Tenure-Track Assistant Professor in Theoretical Physics (Astrophysics)"
 			, "October 16, 2019"
 			, <> ... 
@@ -114,7 +137,7 @@ function flist(year_str){
 		[
 			"https://www.wsujobs.com/postings/46929"
 			, "WSU"
-			, "Washington State university"
+			, "Washington State University"
 			, "Tenure-Track Assistant Professor in Theoretical Physics"
 			, "November 15, 2019"
 			, <> ... 
@@ -270,9 +293,9 @@ function Display({ match }) {
 				<div id="Home"> </div>
 				<div className="header">
 				<h1>Theoretical Nuclear Physics Jobs {year_str}</h1>
-				<h2> Last update: ANL and INT 
+				<h2> Last update: GSU
 				<br />
-				Date: January 9, 2020 </h2>
+				Date: February 4, 2020 </h2>
 				</div>
 
 				<Menu />
