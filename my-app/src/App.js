@@ -60,6 +60,8 @@ function flist(year_str){
 			, <> 
 			Yang-Ting Chien
 			<br />
+			Felix Ringer 
+			<br />
 			Matt Sievert
 			<br />
 			Raza Sufian
@@ -94,7 +96,9 @@ function flist(year_str){
 			, "Temple University"
 			, "Tenure-Track or Tenured Professor in Physics"
 			, "December 1, 2019"
-			, <> ... 
+			, <> 
+			Felix Ringer <br />
+			... 
 			</>
 			, <> ...</>
 		], 
@@ -300,7 +304,7 @@ function Display({ match }) {
 				<div id="Home"> </div>
 				<div className="header">
 				<h1>Theoretical Nuclear Physics Jobs {year_str}</h1>
-				<h2> Last update: UCR
+				<h2> Last update: GSU, Temple U., UCR 
 				<br />
 				Date: February 11, 2020 </h2>
 				</div>
