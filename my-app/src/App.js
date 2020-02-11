@@ -20,6 +20,13 @@ import External from './External';
 import Item from './Item';
 import ScrollToTop from './Scr';
 
+import ReactGA from 'react-ga';
+const trackingId = "UA-158293359-1"; // Replace with your Google Analytics tracking ID
+ReactGA.initialize(trackingId);
+ReactGA.pageview(window.location.pathname + window.location.search);
+
+
+
 export default App;
 
 
