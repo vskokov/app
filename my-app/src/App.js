@@ -104,7 +104,10 @@ function flist(year_str){
 			, "University of California, Riverside"
 			, "Tenure-Track Assistant/Mid-level Professor  in Theoretical Physics"
 			, "January 30, 2020"
-			, <> ... 
+			, <> 
+			Matt Sievert  
+			<br  />
+			... 
 			</>
 			, <> ...</>
 		], 
@@ -297,9 +300,9 @@ function Display({ match }) {
 				<div id="Home"> </div>
 				<div className="header">
 				<h1>Theoretical Nuclear Physics Jobs {year_str}</h1>
-				<h2> Last update: GSU
+				<h2> Last update: UCR
 				<br />
-				Date: February 4, 2020 </h2>
+				Date: February 11, 2020 </h2>
 				</div>
 
 				<Menu />
