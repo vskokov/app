@@ -83,7 +83,9 @@ function flist(year_str){
 			, "Institute for Nuclear Theory, UW"
 			, "INT Fellow, Research Assistant Professor (limitted term up to 5 years)"
 			, "January 19, 2020"
-			, <> ... 
+			, <> Andrey Sadofyev 
+			<br /> 
+			...
 			</>
 			, <> ...</>
 		], 
@@ -311,9 +313,9 @@ function Display({ match }) {
 				<div id="Home"> </div>
 				<div className="header">
 				<h1>Theoretical Nuclear Physics Jobs {year_str}</h1>
-				<h2> Last update: GSU, Temple U., UCR 
+				<h2> Last update: INT 
 				<br />
-				Date: February 11, 2020 </h2>
+				Date: February 26, 2020 </h2>
 				</div>
 
 				<Menu />
