@@ -54,7 +54,10 @@ function flist(year_str){
 			, "Argonne National Laboratory"
 			, "Tenure-Track Assistant Proffesor in Physics"
 			, "March 6, 2020"
-			, <> ... 
+			, <>
+				Raza Sufian
+				<br />
+				... 
 			</>
 			, <> ...</>
 		],
@@ -75,7 +78,9 @@ function flist(year_str){
 			<br />
 			...
 			</>
-			, <> ...</>
+			, <> 
+			Yang-Ting Chien (accepted)
+			</>
 		],
 		[
 			"http://apply.interfolio.com/72230"
@@ -98,6 +103,21 @@ function flist(year_str){
 			, <> ... 
 			</>
 			, <> ...</>
+		],
+		[
+			"https://jobs.nmsu.edu/postings/38955"
+			, "NMSU"
+			, "New Mexico State University"
+			, "Tenure-Track or Tenured Professor in Physics"
+			, "July 19, 2020"
+			, <> 
+			Matt Sievert
+			<br />
+			... 
+			</>
+			, <> 
+			Matt Sievert (accepted) 
+			</>
 		], 
 		[
 			"https://academicjobsonline.org/ajo/jobs/14364"
@@ -313,9 +333,9 @@ function Display({ match }) {
 				<div id="Home"> </div>
 				<div className="header">
 				<h1>Theoretical Nuclear Physics Jobs {year_str}</h1>
-				<h2> Last update: INT 
+				<h2> Last update: NMSU 
 				<br />
-				Date: February 26, 2020 </h2>
+				Date: August 15, 2020 </h2>
 				</div>
 
 				<Menu />
