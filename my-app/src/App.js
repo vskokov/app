@@ -55,6 +55,8 @@ function flist(year_str){
 			, "Tenure-Track Assistant Proffesor in Physics"
 			, "March 6, 2020"
 			, <>
+				Felix Ringer
+				<br />
 				Raza Sufian
 				<br />
 				... 
@@ -333,9 +335,9 @@ function Display({ match }) {
 				<div id="Home"> </div>
 				<div className="header">
 				<h1>Theoretical Nuclear Physics Jobs {year_str}</h1>
-				<h2> Last update: NMSU 
+				<h2> Last update: Argonne 
 				<br />
-				Date: August 15, 2020 </h2>
+				Date: September 21, 2020 </h2>
 				</div>
 
 				<Menu />
