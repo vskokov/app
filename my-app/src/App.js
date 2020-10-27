@@ -49,6 +49,45 @@ function App() {
 function flist(year_str){
 	var itemlist =[ 	
 			[
+			"https://fribtheoryalliance.org/content/jobs.php"
+			, "FSU"
+			, "Florida State University"
+			, "Theoretical Nuclear Physics (partially funded by the FRIB Theory Alliance)"
+			, "Feb 1, 2021"
+			, <>
+				... 
+			</>
+			, <> ...</>
+		],
+		[
+			"https://apply.interfolio.com/78980"
+			, "INT"
+			, "Institute for Nuclear Theory, UW"
+			, "INT Fellow, Research Assistant Professor (limitted term up to 5 years)"
+			, "Nov 15, 2020"
+			, <>  
+			...
+			</>
+			, <> ...</>
+		], 
+		[
+			"https://apply.interfolio.com/78521"
+			, "UND"
+			, "University of Notre Dame"
+			, "Tenure-Track Assistant Proffesor in Nuclear Theory"
+			, "Nov 15, 2020"
+			, <> 
+			...
+			</>
+			, <> 
+			...
+			</>
+		]];
+
+	if(year_str==="2020")
+	{
+	itemlist =[ 	
+			[
 			"https://labs.inspirehep.net/jobs/1773965"
 			, "ANL"
 			, "Argonne National Laboratory"
@@ -188,6 +227,8 @@ function flist(year_str){
 		]
 		];
 
+	}
+
 	if(year_str==="2019")
 	{
 		itemlist =[ 	
@@ -319,7 +360,11 @@ function flist(year_str){
 
 
 function Display({ match }) {
-  	var year_str="2020";
+  	var year_str="2021";
+	if(match.params.id==="2020")
+	{
+		year_str="2020";
+	}
 	if(match.params.id==="2019")
 	{
 		year_str="2019";
@@ -335,9 +380,9 @@ function Display({ match }) {
 				<div id="Home"> </div>
 				<div className="header">
 				<h1>Theoretical Nuclear Physics Jobs {year_str}</h1>
-				<h2> Last update: Argonne 
+				<h2> Last update: INT 
 				<br />
-				Date: September 21, 2020 </h2>
+				Date: October 3, 2020 </h2>
 				</div>
 
 				<Menu />
