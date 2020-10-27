@@ -69,7 +69,18 @@ function flist(year_str){
 			...
 			</>
 			, <> ...</>
-		], 
+		],
+		[
+			"https://inspirehep.net/jobs/1824014"
+			, "TRIUMF"
+			, "TRIUMF, Canada"
+			, "Research Scientist in theoretical nuclear physics"
+			, "Jan 17, 2021"
+			, <>  
+			...
+			</>
+			, <> ...</>
+		],
 		[
 			"https://apply.interfolio.com/78521"
 			, "UND"
