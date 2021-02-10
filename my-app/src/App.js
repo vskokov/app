@@ -98,7 +98,7 @@ function flist(year_str){
 			"https://apply.interfolio.com/83721"
 			, "WUSTL"
 			, "Washington University in St. Louis"
-			, "Tenure-Trac/Tenured Assistant/Associate Professor in Physics"
+			, "Tenure-Track/Tenured Assistant/Associate Professor in Physics"
 			, "Macrh 15, 2021"
 			, <> 
 			...
