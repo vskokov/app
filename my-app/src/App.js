@@ -93,7 +93,21 @@ function flist(year_str){
 			, <> 
 			...
 			</>
-		]];
+		],
+		[
+			"https://apply.interfolio.com/83721"
+			, "WUSTL"
+			, "Washington University in St. Louis"
+			, "Tenure-Trac/Tenured Assistant/Associate Professor in Physics"
+			, "Macrh 15, 2021"
+			, <> 
+			...
+			</>
+			, <> 
+			...
+			</>
+		]
+	];
 
 	if(year_str==="2020")
 	{
@@ -390,10 +404,10 @@ function Display({ match }) {
 			<div id="main">
 				<div id="Home"> </div>
 				<div className="header">
-				<h1>Theoretical Nuclear Physics Jobs {year_str}</h1>
-				<h2> Last update: INT 
+				<h1> Theoretical Nuclear Physics Jobs {year_str}</h1>
+				<h2> Last update: WUSTL 
 				<br />
-				Date: October 3, 2020 </h2>
+				Date: Feb 9, 2021 </h2>
 				</div>
 
 				<Menu />
