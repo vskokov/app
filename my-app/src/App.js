@@ -66,7 +66,7 @@ function flist(year_str){
 			, "INT Fellow, Research Assistant Professor (limitted term up to 5 years)"
 			, "Nov 15, 2020"
 			, <>
-				Neill C Warrington
+				Neill Warrington
 				<br />
 			    ...
 			</>
