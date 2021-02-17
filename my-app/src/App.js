@@ -65,8 +65,10 @@ function flist(year_str){
 			, "Institute for Nuclear Theory, UW"
 			, "INT Fellow, Research Assistant Professor (limitted term up to 5 years)"
 			, "Nov 15, 2020"
-			, <>  
-			...
+			, <>
+				Neill C Warrington
+				<br />
+			    ...
 			</>
 			, <> ...</>
 		],
@@ -405,9 +407,9 @@ function Display({ match }) {
 				<div id="Home"> </div>
 				<div className="header">
 				<h1> Theoretical Nuclear Physics Jobs {year_str}</h1>
-				<h2> Last update: WUSTL 
+				<h2> Last update: INT 
 				<br />
-				Date: Feb 9, 2021 </h2>
+				Date: Feb 17, 2021 </h2>
 				</div>
 
 				<Menu />
