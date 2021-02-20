@@ -97,19 +97,6 @@ function flist(year_str){
 			</>
 		],
 		[
-			"https://apply.interfolio.com/83721"
-			, "WUSTL"
-			, "Washington University in St. Louis"
-			, "Tenure-Track/Tenured Assistant/Associate Professor in Physics"
-			, "Macrh 15, 2021"
-			, <> 
-			...
-			</>
-			, <> 
-			...
-			</>
-		],
-		[
 			"https://www.indeed.com/viewjob?jk=1669f0889089619c&q=Physics+Faculty&tk=1eqeb4eljubje802&from=ja&alid=5f3339ed29bbda6bc2e3a499&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1eqeb4eljubje802"
 			, "UW"
 			, "University of Washington"
@@ -121,6 +108,20 @@ function flist(year_str){
 			    ...
 			</>
 			, <> ...</>
+		],
+		[
+			"https://apply.interfolio.com/83721"
+			, "WUSTL"
+			, "Washington University in St. Louis"
+			, "Tenure-Track/Tenured Assistant/Associate Professor in Physics"
+			, "Macrh 15, 2021"
+			, <> 
+			...
+			</>
+			, <> 
+			...
+			</>
+		]
 	];
 
 	if(year_str==="2020")
