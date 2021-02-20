@@ -108,7 +108,19 @@ function flist(year_str){
 			, <> 
 			...
 			</>
-		]
+		],
+		[
+			"https://www.indeed.com/viewjob?jk=1669f0889089619c&q=Physics+Faculty&tk=1eqeb4eljubje802&from=ja&alid=5f3339ed29bbda6bc2e3a499&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1eqeb4eljubje802"
+			, "UW"
+			, "University of Washington"
+			, "Research Assistant Professor – Nuclear Theory Group (limitted term up to 5 years)"
+			, "Jan 18, 2021"
+			, <>
+				Raza Sabbir Sufian
+				<br />
+			    ...
+			</>
+			, <> ...</>
 	];
 
 	if(year_str==="2020")
@@ -407,9 +419,9 @@ function Display({ match }) {
 				<div id="Home"> </div>
 				<div className="header">
 				<h1> Theoretical Nuclear Physics Jobs {year_str}</h1>
-				<h2> Last update: INT 
+				<h2> Last update: UW 
 				<br />
-				Date: Feb 17, 2021 </h2>
+				Date: Feb 19, 2021 </h2>
 				</div>
 
 				<Menu />
