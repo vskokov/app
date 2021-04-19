@@ -60,6 +60,19 @@ function flist(year_str){
 			, <> ...</>
 		],
 		[
+			"https://apply.interfolio.com/81105"
+			, "SBU"
+			, "Stony Brook University"
+			, "Tenure-track Assistant Professor faculty position in theoretical physics"
+			, "Feb 5, 2021"
+			, <>
+				Felix Ringer
+				<br />
+				... 
+			</>
+			, <> ...</>
+		],
+		[
 			"https://apply.interfolio.com/78980"
 			, "INT"
 			, "Institute for Nuclear Theory, UW"
@@ -420,9 +433,9 @@ function Display({ match }) {
 				<div id="Home"> </div>
 				<div className="header">
 				<h1> Theoretical Nuclear Physics Jobs {year_str}</h1>
-				<h2> Last update: UW 
+				<h2> Last update: SBU 
 				<br />
-				Date: Feb 19, 2021 </h2>
+				Date: Apr 19, 2021 </h2>
 				</div>
 
 				<Menu />
