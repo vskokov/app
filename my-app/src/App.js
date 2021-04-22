@@ -57,7 +57,8 @@ function flist(year_str){
 			, <>
 				... 
 			</>
-			, <> ...</>
+			, <> Caroline Robin (offered)
+</>
 		],
 		[
 			"https://apply.interfolio.com/81105"
@@ -106,7 +107,7 @@ function flist(year_str){
 			...
 			</>
 			, <> 
-			...
+Caroline Robin (offered) 
 			</>
 		],
 		[
@@ -433,9 +434,9 @@ function Display({ match }) {
 				<div id="Home"> </div>
 				<div className="header">
 				<h1> Theoretical Nuclear Physics Jobs {year_str}</h1>
-				<h2> Last update: SBU 
+				<h2> Last update: FSU and ND 
 				<br />
-				Date: Apr 19, 2021 </h2>
+				Date: Apr 22, 2021 </h2>
 				</div>
 
 				<Menu />
