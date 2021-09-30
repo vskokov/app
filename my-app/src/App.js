@@ -47,9 +47,53 @@ function App() {
 }
 
 function flist(year_str){
-	var itemlist =[ 	
+
+	var itemlist =  
+		[	
+		[
+			"https://facultycareers.fiu.edu/?posting=525005"
+			, "FIU"
+			, "Florida International University"
+			, "Open-rank tenure-track faculty position"
+			, "Nov 1, 2021"
+			, <>
+				... 
+			</>
+			, <> ... 
+</>
+		],
+		[
+			"https://webapps.lsa.umich.edu/Apply/Physics"
+			, "UM"
+			, "University of Michigan"
+			, "Assistant Professor of Physics"
+			, "Nov 1, 2021"
+			, <>
+				... 
+			</>
+			, <> ... 
+</>
+		], 
+		[
+			"http://apply.interfolio.com/93004"
+			, "UW"
+			, "University of Washington"
+			, "Assistant Professor of Physics"
+			, "Oct 1, 2021"
+			, <>
+				... 
+			</>
+			, <> ... 
+</>
+		]
+		]
+
+
+	if(year_str==="2021")
+	{
+	itemlist =[ 	
 			[
-			"https://fribtheoryalliance.org/content/jobs.php"
+			"  https://fribtheoryalliance.org/content/jobs.php"
 			, "FSU"
 			, "Florida State University"
 			, "Theoretical Nuclear Physics (partially funded by the FRIB Theory Alliance)"
@@ -137,6 +181,7 @@ Caroline Robin (offered)
 			</>
 		]
 	];
+	}
 
 	if(year_str==="2020")
 	{
@@ -414,7 +459,12 @@ Caroline Robin (offered)
 
 
 function Display({ match }) {
-  	var year_str="2021";
+  	var year_str="2022";
+	
+	if(match.params.id==="2021")
+	{
+		year_str="2021";
+	}
 	if(match.params.id==="2020")
 	{
 		year_str="2020";
@@ -434,9 +484,9 @@ function Display({ match }) {
 				<div id="Home"> </div>
 				<div className="header">
 				<h1> Theoretical Nuclear Physics Jobs {year_str}</h1>
-				<h2> Last update: FSU and ND 
+				<h2> Last update: FIU 
 				<br />
-				Date: Apr 22, 2021 </h2>
+				Date: Sep 30, 2021 </h2>
 				</div>
 
 				<Menu />
