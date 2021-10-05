@@ -63,6 +63,18 @@ function flist(year_str){
 </>
 		],
 		[
+			"https://aprecruit.berkeley.edu/JPF03125"
+			, "UC Berkeley/LBNL"
+			, "University of California, Berkeley and Lawrence Berkeley National Laboratory"
+			, "Tenure-track faculty assistant professor in Nuclear Astrophysics/Fundamental Symmetries Theory and staff scientist position at LBNL"
+			, "Nov 19, 2021"
+			, <>
+				... 
+			</>
+			, <> ... 
+</>
+		], 
+		[
 			"https://webapps.lsa.umich.edu/Apply/Physics"
 			, "UM"
 			, "University of Michigan"
@@ -484,9 +496,9 @@ function Display({ match }) {
 				<div id="Home"> </div>
 				<div className="header">
 				<h1> Theoretical Nuclear Physics Jobs {year_str}</h1>
-				<h2> Last update: FIU 
+				<h2> Last update: UC Berkeley/LBNL
 				<br />
-				Date: Sep 30, 2021 </h2>
+				Date: Oct 5, 2021 </h2>
 				</div>
 
 				<Menu />
