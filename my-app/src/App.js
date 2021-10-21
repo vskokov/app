@@ -63,6 +63,30 @@ function flist(year_str){
 </>
 		],
 		[
+			"https://academicjobsonline.org/ajo/jobs/19869"
+			, "MIT"
+			, "Massachusetts Institute of Technology"
+			, "Tenure-track junior faculty appointment"
+			, "Nov 15, 2021"
+			, <>
+				... 
+			</>
+			, <> ... 
+</>
+		],
+		[
+			"https://jobs.physicstoday.org/jobs/15557120/assistant-professor-in-theoretical-nuclear-hadronic-physics-tenure-track"
+			, "ODU"
+			, "Old Dominion University"
+			, "Assistant Professor in Theoretical Nuclear/Hadronic Physics"
+			, "Dec 6, 2021"
+			, <>
+				... 
+			</>
+			, <> ... 
+</>
+		],
+			[
 			"https://aprecruit.berkeley.edu/JPF03125"
 			, "UC Berkeley/LBNL"
 			, "University of California, Berkeley and Lawrence Berkeley National Laboratory"
@@ -87,6 +111,18 @@ function flist(year_str){
 </>
 		], 
 		[
+			"https://scse.d.umn.edu/about/faculty-searches"
+			, "UMN"
+			, "University of Minnesota, Duluth"
+			, "Assistant Professor of Physics"
+			, "Nov 10, 2021"
+			, <>
+				... 
+			</>
+			, <> ... 
+</>
+		], 
+			[
 			"http://apply.interfolio.com/93004"
 			, "UW"
 			, "University of Washington"
@@ -113,7 +149,7 @@ function flist(year_str){
 			, <>
 				... 
 			</>
-			, <> Caroline Robin (offered)
+			, <> Caroline Robin (declined)
 </>
 		],
 		[
@@ -163,7 +199,7 @@ function flist(year_str){
 			...
 			</>
 			, <> 
-Caroline Robin (offered) 
+Caroline Robin (declined) 
 			</>
 		],
 		[
@@ -496,9 +532,9 @@ function Display({ match }) {
 				<div id="Home"> </div>
 				<div className="header">
 				<h1> Theoretical Nuclear Physics Jobs {year_str}</h1>
-				<h2> Last update: UC Berkeley/LBNL
+				<h2> Last update: ODU and UMN
 				<br />
-				Date: Oct 5, 2021 </h2>
+				Date: Oct 21, 2021 </h2>
 				</div>
 
 				<Menu />
