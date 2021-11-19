@@ -63,6 +63,18 @@ function flist(year_str){
 </>
 		],
 		[
+			"https://academicjobsonline.org/ajo/jobs/20472"
+			, "LANL"
+			, "Los Alamos National Laboratory, Theoretical Division, T-2"
+			, "Staff scientist position"
+			, "Jan 10, 2022"
+			, <>
+				... 
+			</>
+			, <> ... 
+</>
+		],
+		[
 			"https://academicjobsonline.org/ajo/jobs/19869"
 			, "MIT"
 			, "Massachusetts Institute of Technology"
@@ -532,9 +544,9 @@ function Display({ match }) {
 				<div id="Home"> </div>
 				<div className="header">
 				<h1> Theoretical Nuclear Physics Jobs {year_str}</h1>
-				<h2> Last update: ODU and UMN
+				<h2> Last update: LANL
 				<br />
-				Date: Oct 21, 2021 </h2>
+				Date: Nov 18, 2021 </h2>
 				</div>
 
 				<Menu />
