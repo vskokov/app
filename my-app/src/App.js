@@ -133,7 +133,19 @@ function flist(year_str){
 			</>
 			, <> ... 
 </>
-		], 
+		],
+		[
+			"https://apply.interfolio.com/97827"
+			, "UND"
+			, "University of Notre Dame"
+			, "Tenure-track faculty position in theoretical nuclear physics"
+			, "Jan 17, 2022"
+			, <>
+				... 
+			</>
+			, <> ... 
+</>
+		],
 			[
 			"http://apply.interfolio.com/93004"
 			, "UW"
@@ -544,9 +556,9 @@ function Display({ match }) {
 				<div id="Home"> </div>
 				<div className="header">
 				<h1> Theoretical Nuclear Physics Jobs {year_str}</h1>
-				<h2> Last update: LANL
+				<h2> Last update: UND
 				<br />
-				Date: Nov 18, 2021 </h2>
+				Date: Jan 12, 2022 </h2>
 				</div>
 
 				<Menu />
