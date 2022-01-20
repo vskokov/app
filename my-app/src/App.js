@@ -87,6 +87,18 @@ function flist(year_str){
 </>
 		],
 		[
+			"https://careers.msu.edu/en-us/job/509183/assistant-professorfribnscl-faculty"
+			, "MSU"
+			, "Michigan State University"
+			, "Junior rank faculty position in theoretical nuclear science at FRIB"
+			, "Feb 02, 2022"
+			, <>
+				... 
+			</>
+			, <> ... 
+</>
+		],
+		[
 			"https://jobs.physicstoday.org/jobs/15557120/assistant-professor-in-theoretical-nuclear-hadronic-physics-tenure-track"
 			, "ODU"
 			, "Old Dominion University"
@@ -556,9 +568,9 @@ function Display({ match }) {
 				<div id="Home"> </div>
 				<div className="header">
 				<h1> Theoretical Nuclear Physics Jobs {year_str}</h1>
-				<h2> Last update: UND
+				<h2> Last update: MSU
 				<br />
-				Date: Jan 12, 2022 </h2>
+				Date: Jan 20, 2022 </h2>
 				</div>
 
 				<Menu />
