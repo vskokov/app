@@ -69,6 +69,20 @@ function flist(year_str){
 			, "Staff scientist position"
 			, "Jan 10, 2022"
 			, <>
+			Wouter Dekens
+				<br />
+Kaori Fuyuto
+				<br />
+Dorota Grabowska
+				<br />
+Niklas Mueller
+				<br />
+Andrey Sadofyev
+				<br />
+Chien Yeah Seng
+				<br />
+Jim Talbert
+				<br />
 				... 
 			</>
 			, <> ... 
@@ -568,9 +582,9 @@ function Display({ match }) {
 				<div id="Home"> </div>
 				<div className="header">
 				<h1> Theoretical Nuclear Physics Jobs {year_str}</h1>
-				<h2> Last update: MSU
+				<h2> Last update: LANL
 				<br />
-				Date: Jan 20, 2022 </h2>
+				Date: March 1, 2022 </h2>
 				</div>
 
 				<Menu />
